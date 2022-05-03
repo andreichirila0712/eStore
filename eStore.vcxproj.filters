@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ShoppingCart">
+      <UniqueIdentifier>{d37a16e7-501c-4091-8d12-eb2a1b48b83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShoppingCart">
+      <UniqueIdentifier>{d99086e9-b36b-4297-a9d3-b39968d9962f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Product">
+      <UniqueIdentifier>{64008dcb-9452-4aa3-976b-0217e21f005d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\User">
+      <UniqueIdentifier>{d9366656-28c9-44c9-bc1e-5fe456c72012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\User">
+      <UniqueIdentifier>{208f9af3-cf85-49db-8067-c76187105a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Product">
+      <UniqueIdentifier>{cfe7cb6a-b5cb-4a19-8193-fb4894e9fcca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server">
+      <UniqueIdentifier>{bd2471ef-0ef9-4f5b-838b-bfcc5db37dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server">
+      <UniqueIdentifier>{e7138d7b-1cde-422c-ad4c-8ee4f74a11ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{e306dfa0-dffe-4d89-90d7-dd306061397a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils\objectFactory">
+      <UniqueIdentifier>{8a988f40-5634-41f7-a6be-30780aae06d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{e9063a3a-1744-4ca4-8701-5bb996acbc01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\objectFactory">
+      <UniqueIdentifier>{3beb0b17-4660-42af-96a5-844a28afdc7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LRUCache">
+      <UniqueIdentifier>{5fd61f88-6ccf-4053-a0a5-1ca449ed940c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LRUCache">
+      <UniqueIdentifier>{8a482991-6182-4692-91f1-69d05b163221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QuerySolver">
+      <UniqueIdentifier>{c4dd82ca-143c-43cf-b9ff-3d2284c23a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QuerySolver">
+      <UniqueIdentifier>{816255a4-0864-49ee-8a9f-d54ffdc2b125}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscountedProduct.hpp">
+      <Filter>Header Files\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodProduct.hpp">
+      <Filter>Header Files\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="NonFoodProduct.hpp">
+      <Filter>Header Files\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.hpp">
+      <Filter>Header Files\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="ResealedProduct.hpp">
+      <Filter>Header Files\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnedProduct.hpp">
+      <Filter>Header Files\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.hpp">
+      <Filter>Header Files\User</Filter>
+    </ClInclude>
+    <ClInclude Include="User.hpp">
+      <Filter>Header Files\User</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicUser.hpp">
+      <Filter>Header Files\User</Filter>
+    </ClInclude>
+    <ClInclude Include="PremiumUser.hpp">
+      <Filter>Header Files\User</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoppingCart.hpp">
+      <Filter>Header Files\ShoppingCart</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.hpp">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="objectFactory.hpp">
+      <Filter>Header Files\utils\objectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="LRUCache.hpp">
+      <Filter>Header Files\LRUCache</Filter>
+    </ClInclude>
+    <ClInclude Include="QuerySolver.hpp">
+      <Filter>Header Files\QuerySolver</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TestHelper.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSerializer.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalQuestionsHelper.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DiscountedProduct.cpp">
+      <Filter>Source Files\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodProduct.cpp">
+      <Filter>Source Files\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="NonFoodProduct.cpp">
+      <Filter>Source Files\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Source Files\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="ResealedProduct.cpp">
+      <Filter>Source Files\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnedProduct.cpp">
+      <Filter>Source Files\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>Source Files\User</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\User</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicUser.cpp">
+      <Filter>Source Files\User</Filter>
+    </ClCompile>
+    <ClCompile Include="PremiumUser.cpp">
+      <Filter>Source Files\User</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoppingCart.cpp">
+      <Filter>Source Files\ShoppingCart</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="objectFactory.cpp">
+      <Filter>Source Files\utils\objectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="LRUCache.cpp">
+      <Filter>Source Files\LRUCache</Filter>
+    </ClCompile>
+    <ClCompile Include="QuerySolver.cpp">
+      <Filter>Source Files\QuerySolver</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONSerializer.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalQuestionsHelper.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TestHelper.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
